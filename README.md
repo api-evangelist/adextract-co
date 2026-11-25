@@ -66,7 +66,7 @@
 
 adextract provides ad intelligence for AI agents, allowing searches across Meta, Google, TikTok, and LinkedIn ad libraries. The hosted MCP server lets Claude, Hermes, OpenClaw, Codex, Cursor, and other agents retrieve competitor ads in plain language. It normalizes results with advertiser, headline, body, media URLs, dates, and adds structured marketing insights such as creative description, marketing goal, target audience, emotion scores, and industry fields. Users can compare creatives across platforms, with quick setup via a single MCP URL and API key or OAuth, and start with 50 free searches.
 
-**Areas:** Advertising · AI · MCP · Marketing · CompetitorAnalysis
+**Areas:** Advertising · Artificial Intelligence · MCP · Marketing · Competitor Analysis
 
 ## adextract on APIs.io
 
@@ -80,24 +80,30 @@ Everything profiled for adextract is published on APIs.io rather than in this re
 
 Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
+#### MCP servers (1)
+
+Model Context Protocol servers that expose the API to agents.
+
+- [adextract-co-mcp.yml](https://apis.io/servers/adextract-co/adextract-co-mcp-yml/)
+
 #### Security (2)
 
 Authentication, trust centre, and vulnerability disclosure.
 
-- [Adextract Co Authentication](https://apis.io/security/adextract-co/adextract-co-authentication/)
-- [Adextract Co Domain Security](https://apis.io/security/adextract-co/adextract-co-domain-security/)
+- [adextract Authentication](https://apis.io/security/adextract-co/adextract-co-authentication/)
+- [adextract Domain Security](https://apis.io/security/adextract-co/adextract-co-domain-security/)
 
 #### OAuth scopes (1)
 
 The permissions the API asks for.
 
-- [Adextract Co Scopes](https://apis.io/scopes/adextract-co/adextract-co-scopes/)
+- [adextract Scopes](https://apis.io/scopes/adextract-co/adextract-co-scopes/)
 
 #### Plans and pricing (1)
 
 Published plans, tiers and prices.
 
-- [Adextract Co Plans Pricing](https://apis.io/plans/adextract-co/adextract-co-plans-pricing/)
+- [adextract Plans Pricing](https://apis.io/plans/adextract-co/adextract-co-plans-pricing/)
 
 ## Where to find this API
 
@@ -113,18 +119,18 @@ Links to the company's own pages. This repository publishes no copy of their spe
 
 ## API Evangelist rating
 
-**Kin Score 25.6** — emerging · rubric 0.25.0 · scored 2026-10-31
+**Kin Score 26.8** — thin · rubric 0.28.1 · scored 2026-11-21
 
 | Facet | Score |
 |---|---|
-| Discoverability | 65.0 |
+| Discoverability | 71.7 |
 | Contract quality | 0.0 |
 | Contract governance | 0.0 |
 | Operational transparency | 0.0 |
 | Developer ergonomics | 35.7 |
-| Access clarity | 50.5 |
+| Access clarity | 57.4 |
 
-**Agent readiness 21.8** — agent-aware
+**Agent readiness 22.0** — agent-aware
 
 | Agent-readiness dimension | Result |
 |---|---|
@@ -139,7 +145,7 @@ Links to the company's own pages. This repository publishes no copy of their spe
 | Rate Limit Signal | — |
 | Event Surface Described | — |
 | Agent Skills | — |
-| Well Known Catalog | — |
+| Well Known Catalog | yes |
 | Consent Identity | — |
 | Agent Card | — |
 | Dry Run Mode | — |
@@ -149,8 +155,12 @@ Links to the company's own pages. This repository publishes no copy of their spe
 | Agentic Commerce | — |
 | Pagination Ratio | na |
 | Operation Distinctiveness | na |
+| MCP Tool Quality | na |
+| Onboarding Descriptor | — |
+| Dns Aid Index | na |
+| Markdown Negotiation | na |
 
-**Regulatory alignment 27.3** — Horizontal (data, software, accessibility, platform)
+**Regulatory alignment 21.8** — Horizontal (data, software, accessibility, platform)
 
 The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/adextract-co/](https://apis.io/providers/adextract-co/).
 
